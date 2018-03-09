@@ -1,11 +1,9 @@
 defmodule Pigmentpuppy.Utils do
   def rgb_to_hex(rgb) do
-    hex = rgb 
-          |> Enum.map(fn x -> (x * 255) |> round |> Integer.to_string(16) end) 
-          |> List.to_string
-          |> String.downcase
-
-    "#" <> hex
+    rgb 
+    |> Enum.map(fn x -> (x * 255) |> round |> Integer.to_string(16) end) 
+    |> List.to_string
+    |> String.downcase
   end
 
   def hex_to_rgb(str) when byte_size(str) == 6 do
