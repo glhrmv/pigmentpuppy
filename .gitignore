@@ -1,3 +1,6 @@
+# Ignore the config file which contains secret tokens
+/config/config.exs
+
 # The directory Mix will write compiled artifacts to.
 /_build/
 
