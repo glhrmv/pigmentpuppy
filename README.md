@@ -1,8 +1,4 @@
-# pigmentpuppy
-
-<p align="center">
-  <img src="img/pigmentpuppy.png" />
-</p>
+![pigmentpuppy](img/pigmentpuppy.png)
 
 Twitter bot that tweets out a random colour every hour. 
 
